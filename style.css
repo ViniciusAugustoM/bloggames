@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+header{
+    min-height: 120px;
+    text-align: center;
+    padding-top: 20px;
+    background-image:linear-gradient(to bottom, #5095BF, #396D73 ) ;
+}
+header > h1{
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 2em;
+    padding-bottom: 15px;
+    font-weight: bolder;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.723);
+}
+header > h2{
+    font-family:"gow" ;
+    color: #A61B26;
+}
+body{
+    background-color: #364F59;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    font-size: 20px;
+    color: black;
+    font-style: normal;
+    max-width: 1300px;
+    min-width: 320;
+    margin: auto;
+}
+main{
+    background-color:#4590BF;
+    text-align: justify;
+}
+p{
+    justify-content: center;
+    text-indent: 20px;
+}
+@font-face {
+    font-family:"gow";
+    src: url(GODOFWAR.TTF);
+}
+.titulos{
+    font-family:"gow" ;
+    color: #A61B26;
+    background-color: #54A1BF;
+    padding: 5px;
+    text-indent: 15px;
+}
+a{
+    color:#A61B26 ;
+    font-weight: bold;
+    background-color: #396D73;
+    border-radius: 3px;
+    padding: 3px 3px 0px 3px;
+}
+a:hover{
+    color: #396D73;
+}
+#games{
+    background-color: #A61B26;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border-radius: 4px;
+}
+div.video {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+div.video::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 80%;
+    height: 80%;
+}
+#jogos{
+    background-color: whitesmoke;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+.outros{
+    background-color: #A61B26;
+    color: black;
+}
+main img{
+    margin: auto;
+    display: block;
+}
+.gow{
+    margin: auto;
+    display: block;
+}
+nav > a{
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition-duration: .5s;
+
+}
+nav > a:hover{
+    background-color: #54A1BF;
+    color: #A61B26;
+}
+nav{
+    padding: 20px;
+}
+aside{
+    background-color: #396D73;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.464);
+}
+aside > ul {
+    columns: 2;
+}
+
