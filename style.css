@@ -1,35 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
 header{
-    min-height: 120px;
+    min-height: 30px;
     text-align: center;
     padding-top: 20px;
     background-color:black ;
+    vertical-align: baseline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-header > h1{
-    margin-top: 30px;
+header > div > h1{
+    margin-top: 20px;
     color: white;
     font-family: sans-serif;
     font-size: 2em;
     padding-bottom: 15px;
     font-weight: bolder;
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.723);
+    justify-content: center;
+    display: flex;
+
 }
 header > h2{
     font-family:"gow" ;
     color: #A61B26;
 }
-#icones{
+header > div{
     display: flex;
-    position: absolute;
-    text-align: right;
-    top: 24px;
-    right: 100px;
-
-
-
+    text-align: right; 
+    justify-content: center;
 }
+
+ul{
+    list-style: none;
+    text-align: right;
+}
+ul.social{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: right;
+    text-align: right;
+    position: absolute;
+    right: 10px;
+    
+}
+header img{
+    justify-content: right;
+    width: 40px;
+    margin: 20px 10px;
+    border-radius: 50%;
+    flex-wrap: wrap;
+    text-align: right;
+    box-sizing: border-box;
+}
+ a.icones > img:hover{
+    border: 2px solid rgb(60, 60, 60);
+    transform: translate(-2px, -2px);
+    box-shadow: 3px 3px 5px white;
+}
+
+
+
+
 body{
-    background-image: linear-gradient(to top, white, black);
+    background-image: linear-gradient(to top, rgb(53, 53, 53), black);
     font-family: 'Open Sans', sans-serif;
     margin-left: 70px;
     margin-right: 70px;
@@ -40,6 +81,7 @@ body{
     max-width: 1300px;
     min-width: 320;
     margin: auto;
+    position: relative;
 }
 main{
     background-color:#f3f3f3;
